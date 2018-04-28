@@ -1,0 +1,11 @@
+{
+	"title"		:	"clothes_system",
+	"type"		:	"NPC",
+	"tags"		:	[ "Roleplay", "Realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
