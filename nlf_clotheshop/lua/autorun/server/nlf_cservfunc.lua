@@ -136,7 +136,7 @@ net.Receive("C::EquipV", function(len, pl)
 end)
 
 local function c_dontchangv(ply)
-    if cclothes.teamrestrict[ team.GetName(ply:Team()) ] then DarkRP.notify(ply, 1, 4, cclothes.lang[l].txt19) return end
+    if cclothes.teamrestrict[ team.GetName(ply:Team()) ] then return end
     if ply.cmodel ~= nil and cclothes.samemodelonspawn then
         timer.Simple(0.1, function()
             ply:SetModel(ply.cmodel)
